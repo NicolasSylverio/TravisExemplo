@@ -5,12 +5,13 @@ dist: xenial
 dotnet: 2.2
 
 install:
-  - dotnt restore
+  - dotnet restore
 
 script:
-  - dotnet 
+  - dotnet build
 
   branches:
   only:
   - master
-  - develop
+#  - develop
+#  - /^v.*$/
