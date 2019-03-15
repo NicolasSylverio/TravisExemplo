@@ -9,9 +9,3 @@ install:
 
 script:
   - dotnet build
-
-  branches:
-  only:
-  - master
-#  - develop
-#  - /^v.*$/
