@@ -5,5 +5,12 @@ dist: xenial
 dotnet: 2.2
 
 install:
-  - dotnet tool install -g coveralls.net --version 1.0.0
-  - dotnet restore
+  - dotnt restore
+
+script:
+  - dotnet 
+
+  branches:
+  only:
+  - master
+  - develop

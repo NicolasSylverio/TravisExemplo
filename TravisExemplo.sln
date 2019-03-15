@@ -7,6 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB457427-BAB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravisExemplo.WebApi", "src\TravisExemplo.WebApi\TravisExemplo.WebApi.csproj", "{8F928CFC-4D15-473C-8A14-44E1727148B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution Itens", "{332C3785-D08F-4FA5-B144-BA6B9CD125D1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
